@@ -7,7 +7,8 @@ if not os.path.exists(PICKLE_OBJ_PATH):
 
 TRAINING = True
 
-LABEL = "kg"
+LABEL = "lat400sqkm"
+SCALE_LABEL=False
 
 SAVED_MODEL_PATH = os.path.join("models","xgboost")
 if not os.path.exists(SAVED_MODEL_PATH):
