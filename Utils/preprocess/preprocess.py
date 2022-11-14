@@ -79,6 +79,5 @@ class preprocess_fishiries():
     def get_train_test_data(self):
         self.train_test_split()
         return self.x_train, self.y_train, self.x_test, self.y_test
-
     def get_data(self):
         return self.data
