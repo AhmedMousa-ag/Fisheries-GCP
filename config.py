@@ -24,3 +24,8 @@ PREPROCESS_DICT = {"lat400sqkm": "scale",
                   "rate": "scale",
                   "species": "LabelEncoder",
                   "sid": "LabelEncoder"}
+
+
+PROJECT_ID = "fishiries-alaska"
+DATASET_ID = 'fishiries_alaska_observer'
+TABLE_ID = 'fisheries'
